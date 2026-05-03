@@ -1,3 +1,36 @@
+# Final Project Information
+
+**Course:** SWS 215 - Web Development  
+**Project Title:** FitHub - Gym Management System  
+**Group ID:** 5  
+
+## Group Members
+
+| Student Name | Student ID |
+|---|---|
+| Ahmad Aljanahi | 20210001364 |
+| Mohammed Jouni | 20220001249 |
+| Abdullatif AlHammadi | 20220002310 |
+
+## Live Links
+
+- **Live Frontend:** https://fithub-sws215-deliverable2.vercel.app
+- **Live Backend:** https://fithub-sws215-deliverable2.onrender.com
+- **Backend Health Check:** https://fithub-sws215-deliverable2.onrender.com/api/health
+- **GitHub Repository:** https://github.com/kANoZY341/fithub-sws215-deliverable2
+
+## Evaluation Login Credentials
+
+**Admin Account**  
+Email: admin@fithub.local  
+Password: Admin@123  
+
+**User Account**  
+Email: aisha@fithub.local  
+Password: Member@123  
+
+---
+
 # FitHub Deployment Guide
 
 Target deployment:
@@ -165,3 +198,4 @@ Member@123
 6. Redeploy Render backend.
 7. Seed Atlas once if the database is empty and safe to reset.
 8. Run the final live test.
+

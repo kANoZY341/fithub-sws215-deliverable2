@@ -1,3 +1,36 @@
+# Final Project Information
+
+**Course:** SWS 215 - Web Development  
+**Project Title:** FitHub - Gym Management System  
+**Group ID:** 5  
+
+## Group Members
+
+| Student Name | Student ID |
+|---|---|
+| Ahmad Aljanahi | 20210001364 |
+| Mohammed Jouni | 20220001249 |
+| Abdullatif AlHammadi | 20220002310 |
+
+## Live Links
+
+- **Live Frontend:** https://fithub-sws215-deliverable2.vercel.app
+- **Live Backend:** https://fithub-sws215-deliverable2.onrender.com
+- **Backend Health Check:** https://fithub-sws215-deliverable2.onrender.com/api/health
+- **GitHub Repository:** https://github.com/kANoZY341/fithub-sws215-deliverable2
+
+## Evaluation Login Credentials
+
+**Admin Account**  
+Email: admin@fithub.local  
+Password: Admin@123  
+
+**User Account**  
+Email: aisha@fithub.local  
+Password: Member@123  
+
+---
+
 # FitHub Postman Guide
 
 This guide explains how to import and use the ready-made Postman files for the FitHub Gym Management System.
@@ -278,3 +311,4 @@ If membership subscription returns `409`:
 
 - This is correct when the user already has an active membership.
 - Run `AUTH > Register User` to create a fresh user if you want to show a successful first subscription.
+
