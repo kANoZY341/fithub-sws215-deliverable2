@@ -46,16 +46,6 @@ FitHub is a full-stack MERN gym management system for SWS 215 Web Development De
 - Backend health check: https://fithub-sws215-deliverable2.onrender.com/api/health
 - GitHub repository: https://github.com/kANoZY341/fithub-sws215-deliverable2
 
-## Group Members
-
-Replace the placeholder rows below with the official names and student IDs before final submission if your instructor requires exact member details in the README.
-
-| Group Member | Student ID |
-| --- | --- |
-| Student Name 1 | Student ID 1 |
-| Student Name 2 | Student ID 2 |
-| Student Name 3 | Student ID 3 |
-
 ## Evaluation Logins
 
 - Admin: `admin@fithub.local` / `Admin@123`
@@ -236,5 +226,6 @@ CLIENT_URL=https://fithub-sws215-deliverable2.vercel.app
 - API route list: `API_DOCUMENTATION.md`
 - Postman testing guide: `POSTMAN_GUIDE.md`
 - Deployment guide: `DEPLOYMENT_GUIDE.md`
+
 
 
