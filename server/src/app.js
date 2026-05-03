@@ -40,8 +40,18 @@ app.use(cors({
 }));
 app.use(express.json());
 
+const healthResponse = { ok: true, service: 'FitHub API', status: 'running' };
+
+app.get('/', (req, res) => {
+  res.json(healthResponse);
+});
+
+app.get('/health', (req, res) => {
+  res.json(healthResponse);
+});
+
 app.get('/api/health', (req, res) => {
-  res.json({ ok: true, service: 'FitHub API' });
+  res.json(healthResponse);
 });
 
 app.use('/api/auth', authRoutes);
