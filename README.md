@@ -205,7 +205,7 @@ Install the following before running the project:
 
 - Node.js 20 or newer
 - npm 10 or newer
-- MongoDB installed locally, or a MongoDB Atlas connection string
+- MongoDB installed locally, or MongoDB Atlas connection string
 - Git
 - VS Code
 - MongoDB Compass
@@ -631,6 +631,10 @@ fithub
 
 ---
 
+## Related Documentation
 
-
+- `API_DOCUMENTATION.md`
+- `POSTMAN_GUIDE.md`
+- `DEPLOYMENT_GUIDE.md`
+- `FitHub_Postman_Collection.json`
 - `FitHub_Postman_Environment.json`
