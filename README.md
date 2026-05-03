@@ -237,3 +237,4 @@ CLIENT_URL=https://fithub-sws215-deliverable2.vercel.app
 - Postman testing guide: `POSTMAN_GUIDE.md`
 - Deployment guide: `DEPLOYMENT_GUIDE.md`
 
+
