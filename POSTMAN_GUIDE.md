@@ -2,6 +2,13 @@
 
 This guide explains how to import and use the ready-made Postman files for the FitHub Gym Management System.
 
+Live links:
+
+- Frontend: https://fithub-sws215-deliverable2.vercel.app
+- Backend API: https://fithub-sws215-deliverable2.onrender.com/api
+- Backend health check: https://fithub-sws215-deliverable2.onrender.com/api/health
+- GitHub repository: https://github.com/kANoZY341/fithub-sws215-deliverable2
+
 Files in the project root:
 
 - `FitHub_Postman_Collection.json`
@@ -57,10 +64,16 @@ Backend API: http://localhost:5000/api
 ## 4. Select the Environment
 
 1. In the top-right Postman environment dropdown, choose `FitHub Local Environment`.
-2. Confirm `baseUrl` is:
+2. For local testing, confirm `baseUrl` is:
 
 ```text
 http://localhost:5000/api
+```
+
+For live deployed backend testing, change `baseUrl` to:
+
+```text
+https://fithub-sws215-deliverable2.onrender.com/api
 ```
 
 The collection automatically saves these variables during testing:

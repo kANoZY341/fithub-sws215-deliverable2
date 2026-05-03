@@ -3,8 +3,10 @@
 Target deployment:
 
 - Database: MongoDB Atlas
-- Backend API: Render
-- Frontend: Vercel
+- Backend API: Render, https://fithub-sws215-deliverable2.onrender.com
+- Frontend: Vercel, https://fithub-sws215-deliverable2.vercel.app
+- GitHub repository: https://github.com/kANoZY341/fithub-sws215-deliverable2
+- Backend health check: https://fithub-sws215-deliverable2.onrender.com/api/health
 
 Do not commit real secrets. Keep real values only in Atlas, Render, Vercel, or local `.env` files.
 
@@ -44,8 +46,8 @@ Use this full value as `MONGO_URI` on Render.
 PORT=5000
 MONGO_URI=your_mongodb_atlas_connection_string
 JWT_SECRET=your_long_random_secret
-CORS_ORIGINS=https://your-vercel-site.vercel.app
-CLIENT_URL=https://your-vercel-site.vercel.app
+CORS_ORIGINS=https://fithub-sws215-deliverable2.vercel.app
+CLIENT_URL=https://fithub-sws215-deliverable2.vercel.app
 ```
 
 At first, you may not know the Vercel URL. You can leave `CORS_ORIGINS` and `CLIENT_URL` blank during the first backend deploy, then update them after the frontend is deployed.
@@ -54,7 +56,7 @@ At first, you may not know the Vercel URL. You can leave `CORS_ORIGINS` and `CLI
 7. Test the backend health route:
 
 ```text
-https://your-render-service.onrender.com/api/health
+https://fithub-sws215-deliverable2.onrender.com/api/health
 ```
 
 Expected response:
@@ -62,7 +64,8 @@ Expected response:
 ```json
 {
   "ok": true,
-  "service": "FitHub API"
+  "service": "FitHub API",
+  "status": "running"
 }
 ```
 
@@ -77,7 +80,7 @@ Expected response:
 3. Add environment variable:
 
 ```text
-VITE_API_URL=https://your-render-service.onrender.com/api
+VITE_API_URL=https://fithub-sws215-deliverable2.onrender.com/api
 ```
 
 4. Deploy the frontend.
@@ -88,8 +91,8 @@ VITE_API_URL=https://your-render-service.onrender.com/api
 After Vercel gives you the frontend URL, go back to Render and update the backend environment variables:
 
 ```text
-CORS_ORIGINS=https://your-vercel-site.vercel.app
-CLIENT_URL=https://your-vercel-site.vercel.app
+CORS_ORIGINS=https://fithub-sws215-deliverable2.vercel.app
+CLIENT_URL=https://fithub-sws215-deliverable2.vercel.app
 ```
 
 If you also have a custom domain, include both URLs separated by commas:
@@ -122,6 +125,10 @@ npm run seed
 ## 6. Final Live Test
 
 1. Open the live Vercel frontend.
+
+```text
+https://fithub-sws215-deliverable2.vercel.app
+```
 2. Login as admin:
 
 ```text
@@ -152,8 +159,8 @@ Member@123
 
 1. Create MongoDB Atlas cluster, database user, and network access.
 2. Deploy backend on Render with Atlas `MONGO_URI` and `JWT_SECRET`.
-3. Test Render `/api/health`.
-4. Deploy frontend on Vercel with `VITE_API_URL=https://your-render-service.onrender.com/api`.
+3. Test Render `/api/health`: `https://fithub-sws215-deliverable2.onrender.com/api/health`.
+4. Deploy frontend on Vercel with `VITE_API_URL=https://fithub-sws215-deliverable2.onrender.com/api`.
 5. Copy Vercel URL into Render `CORS_ORIGINS` and `CLIENT_URL`.
 6. Redeploy Render backend.
 7. Seed Atlas once if the database is empty and safe to reset.

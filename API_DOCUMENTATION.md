@@ -1,5 +1,29 @@
 # FitHub API Documentation
 
+Live backend:
+
+```text
+https://fithub-sws215-deliverable2.onrender.com
+```
+
+Live API base URL:
+
+```text
+https://fithub-sws215-deliverable2.onrender.com/api
+```
+
+Live health check:
+
+```text
+https://fithub-sws215-deliverable2.onrender.com/api/health
+```
+
+GitHub repository:
+
+```text
+https://github.com/kANoZY341/fithub-sws215-deliverable2
+```
+
 Base URL for local testing:
 
 ```text
@@ -25,9 +49,25 @@ Content-Type: application/json
 
 ### Health Check
 
+Render/root health routes:
+
+`GET /`
+
 `GET /health`
 
+`GET /api/health`
+
 Auth: none
+
+Response:
+
+```json
+{
+  "ok": true,
+  "service": "FitHub API",
+  "status": "running"
+}
+```
 
 ### Register
 
